@@ -98,6 +98,210 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   html {
+    font-size: 16px;
+    height: 100%;
+  }
+   
+  body {
+    font-size: 1em;
+    font-family: 'Karla', sans-serif;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  nav {
+    padding: 15px 0;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+  }
+
+  .hero-area {
+    background: url(img/image-intro-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+  }
+
+  .content-wrapper {
+    background-color: hsl(256, 26%, 20%);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    margin-top: -165px;
+  }
+
+  .left-squiggle {
+    background: left;
+    background-image: url(img/bg-pattern-intro-left-mobile.svg);
+    height: 165px;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  h1 {
+    font-size: 3.65em;
+    font-family: 'DM Serif Display', serif;
+    color: white;
+    line-height: 1.1;
+    width: 85%;
+    margin-top:20%;
+    margin-bottom: 0;
+  }
+
+  header p {
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 80%;
+    margin: auto;
+    margin: 5%;
+  }
+
+  #plans {
+    border: 1px solid white;
+    text-transform: uppercase;
+    width: 35%;
+    padding: 10px;
+    margin-bottom: 20%;
+  }
+
+  .right-squiggle {
+    background-position: right;
+    background-image: url(img/bg-pattern-intro-right-mobile.svg);
+    height: 400px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: -150px;
+  }
+
+  .divider { 
+    background-color: black;
+    height: 1px;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: -100px;
+  }
+
+  .main-content {
+    margin-top: -50px;
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+
+  h2 {
+    margin-top: 20%;
+    font-size: 3.65em;
+    font-family: 'DM Serif Display', serif;
+  }
+
+  h3 {
+    font-size: 2em;
+    font-family: 'DM Serif Display', serif;
+  }
+
+  .main-content p {
+    font-size: 1.25em;
+    margin-bottom: 15%;
+    color: hsl(273, 4%, 51%);
+  }
+
+  .work-squiggle {
+    background-image: url(img/bg-pattern-how-we-work-mobile.svg);
+    background-position: right;
+    height: 325px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: -350px;
+  }
+
+  aside {
+    background-color: hsl(256, 26%, 20%);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+  }
+
+  aside h2 {
+    font-size: 3.65em;
+    color: white;
+    line-height: 1.1;
+  }
+
+  aside p {
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 1px solid white;
+    text-transform: uppercase;
+    width: 35%;
+    padding: 10px;
+    margin-bottom: 20%;
+  }
+
+  #contact {
+    background-image: url(img/bg-pattern-footer-mobile.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+  }
+
+  #logo {
+    padding-top: 200px;
+  }
+
+  #social {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  #social i {
+    margin-left: 10px;
+  }
+
+  a {
+    color: hsl(273, 4%, 51%);
+    text-decoration: none;
+  }
+
+  footer {
+    font-size: .9em;
+    font-family: 'Karla', sans-serif;
+    color: hsl(270, 9%, 17%);
+    line-height: 1.4;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  footer .section-title {
+    color: hsl(273, 4%, 51%);
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 8%;
+  }
+
+  footer li {
+    list-style-type: none;
+    line-height: 2.3;
+    text-align: center;
+  }
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

@@ -9,7 +9,7 @@
   <title>Frontend Mentor | Insure landing page</title>
 
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="main.css">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display|Karla:400,700&display=swap" rel="stylesheet">
@@ -32,27 +32,41 @@
 <body>
 <main>
   <nav>
-    <ul>
-      <li>How we work</li>
-      <li>Blog</li>
-      <li>Account</li>
-      <li>View plans</li>
-    </ul>
+    <li>
+      <figure id="logo">
+        <img src="img/logo.svg" target="_blank" alt="Insure logo">
+      </figure>
+    </li>
+
+    <li>
+      <figure>
+        <img src="img/icon-hamburger.svg" target="_blank" alt="menu icon">
+      </figure>
+    </li>
   </nav>
-  
-  <figure>
-    <img src="img/image-intro-mobile.jpg" alt="Family of four, walking hand in hand">
-  </figure>
+
+  <div class="hero-area"></div>
 
   <header>
-    <h1>Humanizing your insurance.</h1>
 
-    <p>Get your life insurance coverage easier and faster. We blend our expertise 
+    <div class="left-squiggle"></div>
+
+    <div class="content-wrapper">
+      <h1>Humanizing your insurance.</h1>
+
+        <p>Get your life insurance coverage easier and faster. We blend our expertise 
   and technology to help you find the plan that’s right for you. Ensure you 
   and your loved ones are protected.</p>
 
-    <p>View plans</p>
+        <p id="plans">View plans</p>
+
+    </div>
+
+    <div class="right-squiggle"></div>
+
   </header>
+
+  <div class="divider"></div>
 
   <section class="main-content">
     <h2>We’re different</h2>
@@ -86,30 +100,37 @@
     <h2 class="aside">Find out more about how we work</h2 class="aside">
 
     <p>How we work</p>
+
+    </aside>
+
+    <div class="work-squiggle"></div>
     
+    <section id="contact">
     <div id="logo">
-      <img src="img/logo.svg">
+      <figure>
+        <img src="img/logo.svg">
+      </figure>
     </div> 
     
     <div id="social">
       <a href="http://facebook.com" target="_blank" rel="noopener">
-      <i class="fab fa-facebook fa-3x"></i>
+      <i class="fab fa-facebook fa-2x"></i>
       </a>
 
       <a href="http://twitter.com" target="_blank" rel="noopener">
-      <i class="fab fa-twitter fa-3x"></i>
+      <i class="fab fa-twitter fa-2x"></i>
       </a>
 
       <a href="http://pinterst.com" target="_blank" rel="noopener">
-      <i class="fab fa-pinterest fa-3x"></i>
+      <i class="fab fa-pinterest fa-2x"></i>
       </a>
 
       <a href="http://instagram.com" target="_blank" rel="noopener">
-      <i class="fab fa-instagram fa-3x"></i>
+      <i class="fab fa-instagram fa-2x"></i>
       </a>
     </div>
+  </section>
 
-  </aside>
 </main>
 
 <footer>
